@@ -1,42 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="black">#FF000000</color>
-    <color name="brand_blue">#2F6BFF</color>
-    <color name="brand_blue_light">#E8F0FF</color>
-    <color name="surface_muted">#F5F5F5</color>
-    <color name="surface_page">#FFFFFF</color>
-    <color name="text_primary">#1A1A1A</color>
-    <color name="text_secondary">#6B7280</color>
-    <color name="white">#FFFFFFFF</color>
-    <string name="app_name">Car Shop</string>
-    <string name="badge_discount">5% Discount</string>
-    <string name="btn_go_first">Go To First Page</string>
-    <string name="btn_pay">Pay</string>
-    <string name="contact_email">gmail@example.com</string>
-    <string name="contact_phone">+91987654321</string>
-    <string name="delivery_eta">Delivered on or before Thursday, 23 April 2026</string>
-    <string name="item_description_placeholder">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</string>
-    <string name="label_item">Item</string>
-    <string name="label_shipping_options">Shipping Options</string>
-    <string name="label_total_prefix">Total</string>
-    <string name="screen_payment_title">Payment</string>
-    <string name="screen_shop_title">Shop</string>
-    <string name="shipping_express_row">Express � $1,700</string>
-    <string name="shipping_standard_row">Standard � FREE</string>
-    <string name="shop_category_hint">Clothing</string>
-    <string name="success_subtitle">You card has been successfully charged</string>
-    <string name="success_title">Done!</string>
-    <style name="ShapeAppearanceOverlay.CarOrder.CardImage" parent="">
-        <item name="cornerFamily">rounded</item>
-        <item name="cornerSize">14dp</item>
-    </style>
-    <style name="Theme.CarOrder" parent="Theme.MaterialComponents.Light.NoActionBar">
-        <item name="colorPrimary">@color/brand_blue</item>
-        <item name="colorPrimaryVariant">@color/brand_blue</item>
-        <item name="colorOnPrimary">@color/white</item>
-        <item name="android:statusBarColor">@color/surface_page</item>
-        <item name="android:windowLightStatusBar">true</item>
-        <item name="android:navigationBarColor">@color/white</item>
-        <item name="android:windowBackground">@color/surface_page</item>
+    <color name="student_form_launcher_background">#1B2A4A</color>
+    <string name="app_name">Student Form</string>
+    <string name="btn_submit">Submit</string>
+    <string name="date_picker_cancel">Cancel</string>
+    <string name="date_picker_cancel_ka">გაუქმება</string>
+    <string name="date_picker_ok">OK</string>
+    <string name="form_subtitle">Fill in your profile and submit</string>
+    <string name="form_subtitle_ka">შეავსეთ პროფილი</string>
+    <string name="label_date">Birth date (DD/MM/YYYY)</string>
+    <string name="label_date_ka">თარიღი (DD/MM/YYYY)</string>
+    <string name="label_direction">Your favorite direction</string>
+    <string name="label_direction_ka">თქვენი ფავორიტი მიმართულება</string>
+    <string name="label_email">Email</string>
+    <string name="label_email_ka">იმეილი</string>
+    <string name="label_name">First name</string>
+    <string name="label_name_ka">სახელი</string>
+    <string name="label_surname">Last name</string>
+    <string name="label_surname_ka">გვარი</string>
+    <string name="label_terms">I agree to the terms and conditions</string>
+    <string name="label_terms_ka">ვეთანხმავთ წესებს და პირობებს</string>
+    <string name="toast_error">Fill in all fields!</string>
+    <string name="toast_error_ka">შეავსეთ ყველა ველი!</string>
+    <string name="toast_success">Data submitted!</string>
+    <string name="toast_success_ka">მონაცმებები გაიგზავნა!</string>
+    <style name="Theme.StudentForm" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/white</item>
     </style>
 </resources>

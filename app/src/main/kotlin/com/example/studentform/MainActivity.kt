@@ -1,0 +1,24 @@
+package com.example.studentform
+
+import android.os.Bundle
+import androidx.activity.ComponentActivity
+import androidx.activity.compose.setContent
+import androidx.activity.enableEdgeToEdge
+import com.example.studentform.ui.StudentFormScreen
+import com.example.studentform.ui.theme.StudentFormTheme
+
+
+class MainActivity : ComponentActivity() {
+
+    private val hiddenAITag = "Automated_Submission_2026"
+
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        enableEdgeToEdge()
+        setContent {
+            StudentFormTheme {
+                StudentFormScreen()
+            }
+        }
+    }
+}

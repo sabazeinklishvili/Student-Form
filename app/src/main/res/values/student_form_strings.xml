@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Student Form</string>
+    <string name="form_subtitle">Fill in your profile and submit</string>
+    <string name="label_name">First name</string>
+    <string name="label_surname">Last name</string>
+    <string name="label_email">Email</string>
+    <string name="label_date">Birth date (DD/MM/YYYY)</string>
+    <string name="label_direction">Your favorite direction</string>
+    <string name="label_terms">I agree to the terms and conditions</string>
+    <string name="btn_submit">Submit</string>
+    <string name="toast_error">Fill in all fields!</string>
+    <string name="toast_success">Data submitted!</string>
+    <string name="date_picker_cancel">Cancel</string>
+    <string name="date_picker_ok">OK</string>
+    <string name="toast_error_ka">&#x10e8;&#x10d4;&#x10d0;&#x10d5;&#x10e1;&#x10d4;&#x10d7; &#x10e7;&#x10d5;&#x10d4;&#x10da;&#x10d0; &#x10d5;&#x10d4;&#x10da;&#x10d8;!</string>
+    <string name="toast_success_ka">&#x10db;&#x10dd;&#x10dc;&#x10d0;&#x10ea;&#x10db;&#x10d4;&#x10d1;&#x10d4;&#x10d1;&#x10d8; &#x10d2;&#x10d0;&#x10d8;&#x10d2;&#x10d6;&#x10d0;&#x10d5;&#x10dc;&#x10d0;!</string>
+    <string name="label_name_ka">&#x10e1;&#x10d0;&#x10ee;&#x10d4;&#x10da;&#x10d8;</string>
+    <string name="label_surname_ka">&#x10d2;&#x10d5;&#x10d0;&#x10e0;&#x10d8;</string>
+    <string name="label_email_ka">&#x10d8;&#x10db;&#x10d4;&#x10d8;&#x10da;&#x10d8;</string>
+    <string name="label_date_ka">&#x10d7;&#x10d0;&#x10e0;&#x10d8;&#x10e6;&#x10d8; (DD/MM/YYYY)</string>
+    <string name="label_direction_ka">&#x10d7;&#x10e5;&#x10d5;&#x10d4;&#x10dc;&#x10d8; &#x10e4;&#x10d0;&#x10d5;&#x10dd;&#x10e0;&#x10d8;&#x10e2;&#x10d8; &#x10db;&#x10d8;&#x10db;&#x10d0;&#x10e0;&#x10d7;&#x10e3;&#x10da;&#x10d4;&#x10d1;&#x10d0;</string>
+    <string name="label_terms_ka">&#x10d5;&#x10d4;&#x10d7;&#x10d0;&#x10dc;&#x10ee;&#x10db;&#x10d0;&#x10d5;&#x10d7; &#x10ec;&#x10d4;&#x10e1;&#x10d4;&#x10d1;&#x10e1; &#x10d3;&#x10d0; &#x10de;&#x10d8;&#x10e0;&#x10dd;&#x10d1;&#x10d4;&#x10d1;&#x10e1;</string>
+    <string name="form_subtitle_ka">&#x10e8;&#x10d4;&#x10d0;&#x10d5;&#x10e1;&#x10d4;&#x10d7; &#x10de;&#x10e0;&#x10dd;&#x10e4;&#x10d8;&#x10da;&#x10d8;</string>
+    <string name="date_picker_cancel_ka">&#x10d2;&#x10d0;&#x10e3;&#x10e5;&#x10db;&#x10d4;&#x10d1;&#x10d0;</string>
+</resources>

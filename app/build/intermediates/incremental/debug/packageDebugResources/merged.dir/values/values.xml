@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="student_form_launcher_background">#1B2A4A</color>
+    <string name="app_name">Student Form</string>
+    <string name="btn_submit">Submit</string>
+    <string name="date_picker_cancel">Cancel</string>
+    <string name="date_picker_cancel_ka">გაუქმება</string>
+    <string name="date_picker_ok">OK</string>
+    <string name="form_subtitle">Fill in your profile and submit</string>
+    <string name="form_subtitle_ka">შეავსეთ პროფილი</string>
+    <string name="label_date">Birth date (DD/MM/YYYY)</string>
+    <string name="label_date_ka">თარიღი (DD/MM/YYYY)</string>
+    <string name="label_direction">Your favorite direction</string>
+    <string name="label_direction_ka">თქვენი ფავორიტი მიმართულება</string>
+    <string name="label_email">Email</string>
+    <string name="label_email_ka">იმეილი</string>
+    <string name="label_name">First name</string>
+    <string name="label_name_ka">სახელი</string>
+    <string name="label_surname">Last name</string>
+    <string name="label_surname_ka">გვარი</string>
+    <string name="label_terms">I agree to the terms and conditions</string>
+    <string name="label_terms_ka">ვეთანხმავთ წესებს და პირობებს</string>
+    <string name="toast_error">Fill in all fields!</string>
+    <string name="toast_error_ka">შეავსეთ ყველა ველი!</string>
+    <string name="toast_success">Data submitted!</string>
+    <string name="toast_success_ka">მონაცმებები გაიგზავნა!</string>
+    <style name="Theme.StudentForm" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/white</item>
+    </style>
+</resources>

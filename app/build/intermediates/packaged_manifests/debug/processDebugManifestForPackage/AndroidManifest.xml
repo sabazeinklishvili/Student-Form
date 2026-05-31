@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.carorder"
+    package="com.example.studentform"
     android:versionCode="1"
     android:versionName="1.0" >
 
@@ -9,25 +9,26 @@
         android:targetSdkVersion="34" />
 
     <permission
-        android:name="com.example.carorder.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+        android:name="com.example.studentform.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
         android:protectionLevel="signature" />
 
-    <uses-permission android:name="com.example.carorder.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+    <uses-permission android:name="com.example.studentform.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
 
     <application
         android:allowBackup="true"
         android:appComponentFactory="androidx.core.app.CoreComponentFactory"
         android:debuggable="true"
         android:extractNativeLibs="false"
-        android:icon="@drawable/ic_launcher_foreground"
+        android:icon="@mipmap/student_form_launcher"
         android:label="@string/app_name"
-        android:roundIcon="@drawable/ic_launcher_foreground"
+        android:roundIcon="@mipmap/student_form_launcher"
         android:supportsRtl="true"
         android:testOnly="true"
-        android:theme="@style/Theme.CarOrder" >
+        android:theme="@style/Theme.StudentForm" >
         <activity
-            android:name="com.example.carorder.MainActivity"
-            android:exported="true" >
+            android:name="com.example.studentform.MainActivity"
+            android:exported="true"
+            android:windowSoftInputMode="adjustResize" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -35,15 +36,12 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.example.carorder.OrderActivity"
-            android:exported="false" />
-        <activity
-            android:name="com.example.carorder.SuccessActivity"
-            android:exported="false" />
+            android:name="androidx.compose.ui.tooling.PreviewActivity"
+            android:exported="true" />
 
         <provider
             android:name="androidx.startup.InitializationProvider"
-            android:authorities="com.example.carorder.androidx-startup"
+            android:authorities="com.example.studentform.androidx-startup"
             android:exported="false" >
             <meta-data
                 android:name="androidx.emoji2.text.EmojiCompatInitializer"
